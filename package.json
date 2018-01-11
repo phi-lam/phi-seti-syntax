@@ -1,15 +1,33 @@
 {
-  "name": "phi-seti-syntax",
-  "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
-  "keywords": [
-    "syntax",
-    "theme"
-  ],
-  "repository": "https://github.com/atom/phi-seti-syntax",
-  "license": "MIT",
+  "dependencies": {},
+  "description": "This is a great syntax for seti-ui in Visual Studio style. Recommended for HTML, CSS, JS, SASS and PUG.",
+  "author": "Coder911th/Phi",
+  "devDependencies": {},
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  }
+    "atom": ">=1.0.0"
+  },
+  "keywords": [
+    "Atom",
+    "syntax",
+    "theme",
+    "seti",
+    "vs",
+    "visual",
+    "studio",
+    "js",
+    "html",
+    "css",
+    "pug",
+    "sass"
+  ],
+  "license": "MIT",
+  "name": "seti-vs-phi-syntax",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phi-lam/seti-vs-phi-syntax"
+  },
+  "theme": "syntax",
+  "version": "0.1.1",
+  "readmeFilename": "README.md"
 }
