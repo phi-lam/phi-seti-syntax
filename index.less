@@ -22,8 +22,14 @@ atom-text-editor {
   background-color: @background; // Фон
   color: @basic; // Базовый цвет
 
+  .bracket-matcher .region {
+	  border-bottom: cyan;
+	  background-color: gray;
+	  position: absolute;
+  }
+
   .cursor {
-    border-color: @basic; // Цвет мерцающего курсора
+    border-color: white //@basic; // Цвет мерцающего курсора
   }
 
   .selection .region {
@@ -35,11 +41,11 @@ atom-text-editor {
   }
 
   // Выделение активной строки
-  .line.cursor-line {
+  /*.line.cursor-line {
     box-sizing: border-box;
     background-color: @current-line; // Сам фон
     box-shadow: inset 0 0 0 2px @current-line-border; // Обводка
-  }
+  }*/
 
   .line-number {
     color: @string-number; // Цвет номеров строк (левая часть)
